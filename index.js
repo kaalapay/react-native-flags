@@ -13,7 +13,7 @@ type Props = {
 
 const Flag = ({ size = 64, code, type = 'shiny', style }: Props) => {
   const flag = flags[type][`icons${size}`][code];
-  const unknownFlag = flags[type][`icons${size}`]['unknown'];
+  const unknownFlag = flags[type][`icons${size}`]['BQ'];
 
   return (
     <Image
